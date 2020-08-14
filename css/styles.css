@@ -1,0 +1,26 @@
+/*Global*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    border-top: 11px solid #ededed;
+}
+
+/*Helpers*/
+
+#wrapper{
+    width: 1184px;
+    height: 964px;
+}
+
+#wrapper{
+    border-top: 11px
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

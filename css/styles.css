@@ -111,7 +111,21 @@ h4{
 
 
 
+/*Footer*/
 
+#footer{
+    width: 960px;
+    height: 80px;
+    margin-left: 148px;
+    background-color: #e2e0e0;
+}
+
+#text-footer{
+    font-size: 14px;
+    color: #d3001c;
+    padding: 33px 0;
+    text-align: center;
+}
 
 
 

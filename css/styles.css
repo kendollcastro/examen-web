@@ -87,19 +87,43 @@ h2{
     margin-left: 148px;
 }
 h4{
+    margin-bottom: 14px;
     font-size: 18px;
     color: #8c0013;
 }
 
 .box{
-    width: 440px;
+    width: 439px;
     height: 345px;
     float: left;
     background-color: #f5f3f3;
 }
 
 
+.box{
+    margin-right: 20px;
+}
+.p-box{
+    width: 254px;
+    height: 142px;
+    
+}
 
+.p-box p{
+    font-size: 14px;
+    color: #313131;
+}
+
+.h3-box{
+    font-size: 16px;
+    color: #707070;
+}
+
+
+.link-more-info{
+    list-style: none;
+    text-decoration: none;
+}
 /*Main content 2*/
 
 #main-2{

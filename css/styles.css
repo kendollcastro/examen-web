@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family: Arial, Helvetica, sans-serif;
     border-top: 11px solid #ededed;
 }
 
@@ -15,12 +16,44 @@ body{
     height: 964px;
 }
 
-#wrapper{
-    border-top: 11px
-}
-
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
+
+  /*Header*/
+
+  #header{
+      width: 960px;
+      height: 179px;
+      border-bottom: solid #676766;
+  }
+  #logo{
+      margin: 0 0 0 212px;
+  }
+
+  #menu{
+      width: 960px;
+        margin:  34px 0 0 189px;
+        border-bottom: solid #676766;
+  }
+
+  #menu-list{
+      list-style: none; 
+  }
+
+  #menu-list li{
+      float: left;
+  }
+  #menu-list a{
+      font-size: 18px;
+      color: #676766;
+      text-decoration: none;
+  }
+
+  #menu-list li + li{
+      margin-left: 58px;
+  }
+
+  
